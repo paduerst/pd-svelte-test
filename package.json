@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "deploy": "node ./gh-pages.js",
     "start": "sirv public --no-clear"
   },
   "devDependencies": {
